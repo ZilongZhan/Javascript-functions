@@ -5,18 +5,16 @@
  
  * - define signature
   * - input: one number
-  * - output: one boolean
+  * - output: one number
 */
 
 /**
  * Raise one number to power of two
  * @param {number} base
- * @returns number
+ * @returns number^2
  */
 const raiseValueToPower2 = function (base) {
-  const result = Math.pow(base, 2);
-
-  return result;
+  return Math.pow(base, 2);
 };
 
 export default raiseValueToPower2;

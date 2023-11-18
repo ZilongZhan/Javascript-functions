@@ -5,12 +5,12 @@
  */
 
 /**
- * Find number of characters in a word
- * @param {string} word
- * @returns number of characters of word
+ * Find number of characters in a string
+ * @param {string} sentence
+ * @returns number of characters in 'sentence'
  */
-const getTotalWordsFromString = function (word) {
-  return [...word].length;
+const getTotalWordsFromString = function (sentence) {
+  return sentence.length;
 };
 
 export default getTotalWordsFromString;

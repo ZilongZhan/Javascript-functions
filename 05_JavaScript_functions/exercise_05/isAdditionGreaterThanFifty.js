@@ -4,3 +4,15 @@
  * input: number (summand2)
  * output: boolean
  */
+
+/**
+ * Check whether the sum of a pair of numbers is equal or greater than 50
+ * @param {number} summand1 
+ * @param {number} summand2 
+ * @returns whether sum of the summands is equal or greater than 50 or not
+ */
+function isAdditionGreaterThanFifty (summand1, summand2) {
+    return summand1 + summand2 >= 50;
+}
+
+export default isAdditionGreaterThanFifty;

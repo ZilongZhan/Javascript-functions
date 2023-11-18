@@ -2,4 +2,5 @@
 
 import getTotalWordsFromString from "./getTotalWordsFromString.js";
 
-console.log(getTotalWordsFromString("penis"));
+console.log(getTotalWordsFromString("penis")); //5
+console.log(getTotalWordsFromString("meow")); //4

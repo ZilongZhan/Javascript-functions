@@ -3,3 +3,19 @@
  * input: array (collection)
  * output: boolean
  */
+
+/**
+ * Check whether a given string is empty or not
+ * @param {array} collection 
+ * @returns whether it is true that 'collection' is empty or not
+ */
+function checkCollectionHasElements (collection) {
+    for (let index = 0; index < collection.length; index++) {
+        if (collection[index]) {
+            return true;
+        }
+    }
+    return false;
+}
+
+export default checkCollectionHasElements;
