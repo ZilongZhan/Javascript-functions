@@ -6,16 +6,16 @@
 
 /**
  * Check whether a given string is empty or not
- * @param {array} collection 
+ * @param {array} collection
  * @returns whether it is true that 'collection' is empty or not
  */
-function checkCollectionHasElements (collection) {
-    for (let index = 0; index < collection.length; index++) {
-        if (collection[index]) {
-            return true;
-        }
+function checkCollectionHasElements(collection) {
+  for (let index = 0; index < collection.length; index++) {
+    if (collection[index]) {
+      return true;
     }
-    return false;
+  }
+  return false;
 }
 
 export default checkCollectionHasElements;

@@ -9,12 +9,12 @@
 
 /**
  * Check if type of value matches type received as argument
- * @param {*} value 
- * @param {string} type 
+ * @param {*} value
+ * @param {string} type
  * @returns whether 'value' marches 'type'
  */
-function isTypeOf (value, type) {
-    return type === "array" ? Array.isArray(value) : typeof value === type;
+function isTypeOf(value, type) {
+  return type === "array" ? Array.isArray(value) : typeof value === type;
 }
 
 export default isTypeOf;
