@@ -12,17 +12,17 @@
  * @returns numerical gap between value and threshold
  */
 const getDistanceFromThreshold = function (value, threshold) {
-  let message = "Is equal to threshold";
+  let gap = 0;
 
   if (value < threshold) {
-    message = threshold - value + " is left to reach threshold";
+    gap = threshold - value;
   }
 
   if (value > threshold) {
-    message = "Exceeds threshold by " + (value - threshold);
+    gap = value - threshold;
   }
 
-  return message;
+  return gap;
 };
 
 export default getDistanceFromThreshold;
