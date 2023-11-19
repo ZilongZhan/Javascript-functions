@@ -2,7 +2,7 @@
 
 import checkCollectionHasElements from "./checkCollectionHasElements.js";
 
-const penis = [1, 2, 3];
+const myArray = [1, 2, 3];
 
-console.log(checkCollectionHasElements(penis)); //true
+console.log(checkCollectionHasElements(myArray)); //true
 console.log(checkCollectionHasElements(Array(5))); //false
