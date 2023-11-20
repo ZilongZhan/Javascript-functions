@@ -10,7 +10,7 @@
  * @returns whether it is true that 'collection' is empty or not
  */
 function checkCollectionHasElements(collection) {
-    return collection.some(element => element);
+  return collection.some((element) => element);
 }
 
 export default checkCollectionHasElements;
