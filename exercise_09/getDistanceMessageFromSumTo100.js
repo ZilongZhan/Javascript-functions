@@ -25,7 +25,7 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
 
 /**
  * Finds the numerical gap between the sum of a given value and a generated number, and 100.
- * @param {number} value 
+ * @param {number} value
  * @returns {string}
  */
 const getDistanceMessageFromSumTo100 = function (value) {
