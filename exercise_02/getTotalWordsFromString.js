@@ -17,7 +17,9 @@ const getTotalWordsFromString = function (sentence) {
     if (sentence[index] !== " " && !isWord) {
       wordCount++;
       isWord = true;
-    } else if (sentence[index] === " ") {
+    }
+
+    if (sentence[index] === " ") {
       isWord = false;
     }
   }
