@@ -29,7 +29,7 @@ const transformCollectionToString = function (collection) {
   let output = "";
 
   if (checkCollectionHasElements(collection)) {
-    output = collection.join(" | ")
+    output = collection.join(" | ");
   }
 
   return output;

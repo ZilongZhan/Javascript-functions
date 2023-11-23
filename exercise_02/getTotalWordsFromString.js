@@ -10,7 +10,7 @@
  * @returns number of characters in 'sentence'
  */
 const getTotalWordsFromString = function (sentence) {
-  const wordCount = sentence.split(' ').length;
+  const wordCount = sentence.split(" ").length;
 
   return wordCount;
 };

@@ -1,5 +1,5 @@
 import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
-import isGreaterThan from "../exercise_04/isGreaterThan.js"
+import isGreaterThan from "../exercise_04/isGreaterThan.js";
 
 /**
  * Write JS function "formatStringByWordsLength" to check number of words contained in given string
