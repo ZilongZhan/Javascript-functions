@@ -1,5 +1,6 @@
 import generateRandomNumberInRange from "../exercise_03/generateRandomNumberInRange.js";
 import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js";
+import isGreaterThan from "../exercise_04/isGreaterThan.js";
 
 /** 
  * Write JS function "getDistanceMessageFromSumTo100" to generate a random number (in between 0-100) and sum it to given number
@@ -31,8 +32,9 @@ import getDistanceFromThreshold from "../exercise_01/getDistanceFromThreshold.js
 const getDistanceMessageFromSumTo100 = function (value) {
   const sum = generateRandomNumberInRange(100) + value;
   const differential = getDistanceFromThreshold(sum, 100);
+  const criteria = isGreaterThan(sum, 100);
 
-  return sum > 100
+  return criteria
     ? `Sum with value ${sum} exceeds in ${differential} from number 100`
     : `Sum with value ${sum} is left with ${differential} from number 100`;
 };
