@@ -29,12 +29,7 @@ const transformCollectionToString = function (collection) {
   let output = "";
 
   if (checkCollectionHasElements(collection)) {
-    for (let index = 0; index < collection.length; index++) {
-      if (index > 0) {
-        output += " | ";
-      }
-      output += `${collection[index]}`;
-    }
+    output = collection.join(" | ")
   }
 
   return output;
