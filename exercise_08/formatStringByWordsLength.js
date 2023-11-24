@@ -27,7 +27,7 @@ import isGreaterThan from "../exercise_04/isGreaterThan.js";
  */
 const formatStringByWordsLength = function (sentence) {
   const wordQuantity = getTotalWordsFromString(sentence);
-  const criteria = isGreaterThan(wordQuantity, 5);
+  const exceedsLimit = isGreaterThan(wordQuantity, 5);
 
   return criteria ? sentence.toUpperCase() : sentence.toLowerCase();
 };
