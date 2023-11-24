@@ -29,7 +29,7 @@ const formatStringByWordsLength = function (sentence) {
   const wordQuantity = getTotalWordsFromString(sentence);
   const exceedsLimit = isGreaterThan(wordQuantity, 5);
 
-  return criteria ? sentence.toUpperCase() : sentence.toLowerCase();
+  return exceedsLimit ? sentence.toUpperCase() : sentence.toLowerCase();
 };
 
 export default formatStringByWordsLength;
