@@ -32,7 +32,7 @@ import isGreaterThan from "../exercise_04/isGreaterThan.js";
 const getDistanceMessageFromSumTo100 = function (value) {
   const sum = generateRandomNumberInRange(100) + value;
   const differential = getDistanceFromThreshold(sum, 100);
-  const criteria = isGreaterThan(sum, 100);
+  const exceedsLimit = isGreaterThan(sum, 100);
 
   return criteria
     ? `Sum with value ${sum} exceeds in ${differential} from number 100`
