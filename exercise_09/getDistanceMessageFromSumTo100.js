@@ -34,7 +34,7 @@ const getDistanceMessageFromSumTo100 = function (value) {
   const differential = getDistanceFromThreshold(sum, 100);
   const exceedsLimit = isGreaterThan(sum, 100);
 
-  return criteria
+  return exceedsLimit
     ? `Sum with value ${sum} exceeds in ${differential} from number 100`
     : `Sum with value ${sum} is left with ${differential} from number 100`;
 };
